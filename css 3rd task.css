@@ -1,0 +1,145 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.navbar
+{
+ background-color: black;
+  height: 43px;
+  width: 100%;
+  border:1px solid  rgb(170, 186, 196);
+
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+  
+  li{
+    float: right;
+
+  }
+  li a
+  {
+    text-decoration: none;
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 12px 15px;
+  }
+  a:hover
+  {
+    background-color: grey;
+  }
+  li:first-child
+  {
+    float: left;
+  }
+  .div
+  {
+   
+    height: 260px;
+    width: 100%;
+    overflow: hidden;
+
+  }
+  .div1
+  {
+    background-color: rgb(202, 198, 196);
+    height: 220px;
+    width: 55%;
+    float: left;
+    margin: 20px 10px;
+  }
+  .div2
+  {
+    background-color:white;
+    height: 260px;
+    width: 40%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 13px;
+    padding: 10px 16px;
+    
+  }
+  .div2 button{
+    background-color: rgb(12, 12, 217);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    
+  }
+  .font
+  {
+    font-size: 50px;
+    color: rgb(170, 170, 164);
+    text-align: center;
+    padding-top: 53px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .content
+{
+  background-color:rgb(82, 82, 99);
+ height: 80px;
+ width: 100%;
+ border: 1px solid rgb(138, 141, 143);
+ color: white;
+ text-align: center;
+ padding-top: 12px;
+ font-size: small;
+overflow: hidden;
+border-radius: 3px;
+}
+ 
+.column
+{
+    width: 30%;
+    height: 280px;
+    display: flexbox;
+    padding: 10px;
+    margin: 15px;
+    float: left;
+    display:block;
+}
+.column div
+{
+  text-align: center;
+ padding: 20px;
+  border: 1px solid rgb(249, 247, 247);
+}
+.column1
+{
+   background-color: rgb(246, 243, 243);
+   height: 200px;
+}
+.column2
+{
+   background-color:rgb(183, 178, 178);
+   height: 50px;
+}
+.button
+{
+  background-color: rgb(10, 10, 223);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  float: left;
+}
+
+.footer
+{
+  background-color: rgb(9, 8, 8);
+ height: 50px;
+ width: 100%;
+ border: 1px solid rgb(138, 141, 143);
+ color: white;
+ text-align: center;
+ padding-top: 12px;
+ overflow: hidden;
+ clear: both;
+
+}

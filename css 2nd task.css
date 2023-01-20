@@ -1,0 +1,109 @@
+*
+{
+box-sizing: border-box;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(232, 241, 241);
+     border:1px solid rgb(152, 139, 139);
+   
+   }
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+  }
+a:hover
+{
+    background-color: grey;
+}
+.header
+{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(77, 68, 68);
+    clear: both;
+    padding: 20px;
+}
+.header h2{
+    text-align: center;
+    font-family:sofia;
+     color: white;
+}
+
+.content 
+{
+   display:block;
+    width: 23%;
+    height: 260px;
+    display: flexbox;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+  
+}
+.content div
+{
+  text-align: center;
+  padding-top: 15px;
+  border: 1px solid rgb(103, 100, 100);
+}
+.sale
+{
+  background-color: black;
+  color: white;
+position: relative;
+ width: 40px;
+ font-size: small;
+ margin: -15px -2px 0px -2px;
+}
+.icon
+{
+  width: 15px;
+  height:15px;
+ 
+}
+.div1
+{
+  background-color: gray;
+  height: 90px;
+}
+.div2
+{
+  background-color: white;
+  height: 150px;
+}
+.font
+{
+ color: rgb(218, 211, 211);
+ font-size:30px;
+}
+
+#footer
+{
+  background-color: rgb(9, 7, 7);
+  height: 60px;
+  width: 100%;
+  clear: both;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  
+}
+
